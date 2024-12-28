@@ -25,45 +25,34 @@ export const destinations2 = [
   {
     id: 1,
     hoverText: "14 Hotel - 22 Cars - 18 Tours - 95 Activity",
-    city: "New York",
+    city: "Badrinath",
     img: "/img/destinations/1/1.png",
   },
   {
     id: 2,
     hoverText: "14 Hotel - 22 Cars - 18 Tours - 95 Activity",
-    city: "London",
+    city: "Kedarnath",
     img: "/img/destinations/1/2.png",
   },
   {
     id: 3,
     hoverText: "14 Hotel - 22 Cars - 18 Tours - 95 Activity",
-    city: "Barcelona",
+    city: "Gangotri",
     img: "/img/destinations/1/3.png",
   },
   {
     id: 4,
     hoverText: "14 Hotel - 22 Cars - 18 Tours - 95 Activity",
-    city: "Sydney",
+    city: "Yamunotri",
     img: "/img/destinations/1/4.png",
   },
   {
     id: 5,
     hoverText: "14 Hotel - 22 Cars - 18 Tours - 95 Activity",
-    city: "Rome",
+    city: "Auli",
     img: "/img/destinations/1/5.png",
   },
-  {
-    id: 6,
-    hoverText: "14 Hotel - 22 Cars - 18 Tours - 95 Activity",
-    city: "New York",
-    img: "/img/destinations/1/1.png",
-  },
-  {
-    id: 7,
-    hoverText: "14 Hotel - 22 Cars - 18 Tours - 95 Activity",
-    city: "London",
-    img: "/img/destinations/1/2.png",
-  },
+  
 ];
 
 export const destinations3 = [

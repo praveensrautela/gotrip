@@ -42,7 +42,7 @@ const Home_1 = () => {
             </div>
             {/* End col-auto */}
 
-            <div className="col-auto md:d-none">
+            {/* <div className="col-auto md:d-none">
               <a
                 href="#"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
@@ -50,7 +50,7 @@ const Home_1 = () => {
                 View All Destinations
                 <div className="icon-arrow-top-right ml-15" />
               </a>
-            </div>
+            </div> */}
             {/* End col-auto */}
           </div>
           {/* End .row */}
