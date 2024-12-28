@@ -1,43 +1,113 @@
+
+'use client'
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
 import MainFilterSearchBox from "./MainFilterSearchBox";
 
 const index = () => {
   return (
-    <section className="masthead -type-1 z-5" style={{ backgroundImage: "url('/img/masthead/1/bgimg.jpg')", backgroundSize: "contain", backgroundRepeat: "no-repeat"  }}>
-      <div className="masthead__bg">
-        {/* <img alt="image" src="" className="js-lazy" /> */}
-      </div>
-      <div className="container">
-        <div className="row justify-center">
-          <div className="col-auto">
-            <div className="text-center">
-              <h1
-                className="text-60 lg:text-40 md:text-30 text-white"
-                data-aos="fade-up"
-              >
-                Find Next Place To Visit
-              </h1>
-              <p
-                className="text-white mt-6 md:mt-10"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                Discover amzaing places at exclusive deals
-              </p>
-            </div>
-            {/* End hero title */}
+    <>
+      <section className="masthead -type-7">
+        <div className="masthead-slider js-masthead-slider-7">
+          <Swiper
+            modules={[Navigation]}
+            loop={true}
+            navigation={{
+              nextEl: ".hero7-next-active",
+              prevEl: ".hero7-prev-active",
+            }}
+          >
+            <SwiperSlide>
+              <div className="row justify-center text-center">
+                <div className="col-auto">
+                  <div className="masthead__content">
+                    <div className="masthead__bg">
+                      <img src="/img/masthead/7/first_slider.png" alt="image" />
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="row justify-center text-center">
+                <div className="col-auto">
+                  <div className="masthead__content">
+                    <div className="masthead__bg">
+                      <img src="/img/masthead/7/badrinath.png" alt="image" />
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
 
-            <div
-              className="tabs -underline mt-60 js-tabs"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <MainFilterSearchBox />
-            </div>
-            {/* End tab-filter */}
+            <SwiperSlide>
+              <div className="row justify-center text-center">
+                <div className="col-auto">
+                  <div className="masthead__content">
+                    <div className="masthead__bg">
+                      <img src="/img/masthead/7/kedarnath.png" alt="image" />
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="row justify-center text-center">
+                <div className="col-auto">
+                  <div className="masthead__content">
+                    <div className="masthead__bg">
+                      <img src="/img/masthead/7/gangotri.png" alt="image" />
+                    </div>
+                   
+                    
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="row justify-center text-center">
+                <div className="col-auto">
+                  <div className="masthead__content">
+                    <div className="masthead__bg">
+                      <img src="/img/masthead/7/yamunotri.png" alt="image" />
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+
+
+          </Swiper>
+
+          <div className="masthead-slider__nav -prev js-prev">
+            <button className="button -outline-white size-50 flex-center text-white rounded-full hero7-prev-active">
+              <i className="icon-arrow-left" />
+            </button>
           </div>
+          {/* End prev navigation */}
+
+          <div className="masthead-slider__nav -next js-next">
+            <button className="button -outline-white size-50 flex-center text-white rounded-full hero7-next-active">
+              <i className="icon-arrow-right" />
+            </button>
+          </div>
+          {/* End next navigation */}
         </div>
-      </div>
-    </section>
+        {/* End slider */}
+
+        <MainFilterSearchBox />
+        {/* End tab-filter */}
+      </section>
+      {/* End section */}
+    </>
   );
 };
 
