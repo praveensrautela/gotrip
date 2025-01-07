@@ -59,14 +59,14 @@ const PopularDestinations = () => {
               <div className="citiesCard__content d-flex flex-column justify-between text-center pt-30 pb-20 px-20">
                 <div className="citiesCard__bg" />
                 <div className="citiesCard__top">
-                  <div className="text-14 text-white">{item.hoverText}</div>
+                  {/* <div className="text-14 text-white">{item.hoverText}</div> */}
                 </div>
                 <div className="citiesCard__bottom">
                   <h4 className="text-26 md:text-20 lh-13 text-white mb-20">
                     {item.city}
                   </h4>
                   <a href="booking-page" className="button col-12 h-60 -blue-1 bg-white text-dark-1">
-                    Book Now
+                    Explore Now
                   </a>
                 </div>
               </div>

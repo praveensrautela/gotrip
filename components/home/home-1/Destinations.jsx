@@ -11,9 +11,9 @@ const Destinations = () => {
 
   const filterOptions = [
     { label: "All", value: "all" },
-    { label: "Europe", value: "europe" },
-    { label: "Asia", value: "asia" },
-    { label: "North America", value: "north_america" },
+    { label: "Spiritual Destinations", value: "Spiritual" },
+    { label: "Adventure Destinations", value: "Adventure" },
+    { label: "Sightseeing Destinations", value: "Sightseeing" },
     // add more options as needed
   ];
   useEffect(() => {

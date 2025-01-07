@@ -24,34 +24,32 @@ const MainMenu = ({ style = "" }) => {
     <nav className="menu js-navList">
       <ul className={`menu__nav ${style} -is-active`}>
         <li
-          className={`${
-            isActiveParentChaild(homeItems, pathname) ? "current" : ""
-          } menu-item-has-children`}
+          className={`${isActiveParentChaild(homeItems, pathname) ? "current" : ""
+            } menu-item-has-children`}
         >
           <a href="/">
             <span className="mr-10">Home</span>
           </a>
-         
+
         </li>
         {/* End home page menu */}
 
-    
+
         {/* End categories menu items */}
         <li className={pathname === "/about" ? "current" : ""}>
-          <Link href="/about">About 
-          us </Link>
+          <Link href="/about">About
+            us </Link>
         </li>
 
 
         {/* End Destinatinos single menu */}
 
-        
+
         {/* End blogIems */}
 
-        { <li
-          className={`${
-            isActiveParentChaild(pageItems, pathname) ? "current" : ""
-          } menu-item-has-children`}
+        {<li
+          className={`${isActiveParentChaild(pageItems, pathname) ? "current" : ""
+            } menu-item-has-children`}
         >
           <a href="#">
             <span className="mr-10">Services</span>
@@ -69,13 +67,12 @@ const MainMenu = ({ style = "" }) => {
               </li>
             ))}
           </ul>
-        </li> }
+        </li>}
         {/* End pages items */}
 
-        { <li
-          className={`${
-            isActiveParentChaild(blogItems, pathname) ? "current" : ""
-          } menu-item-has-children`}
+        {<li
+          className={`${isActiveParentChaild(blogItems, pathname) ? "current" : ""
+            } menu-item-has-children`}
         >
           <a href="#">
             <span className="mr-10">Chardham Packages</span>
@@ -93,9 +90,9 @@ const MainMenu = ({ style = "" }) => {
               </li>
             ))}
           </ul>
-        </li> }
+        </li>}
 
-        
+
 
         {/* <li
           className={`${
@@ -121,7 +118,15 @@ const MainMenu = ({ style = "" }) => {
           </ul>
         </li> */}
 
-<li className={pathname === "/booking-page" ? "current" : ""}>
+        <li className={pathname === "/blog-list-v2" ? "current" : ""}>
+          <Link href="/blog-list-v2">Blogs</Link>
+        </li>
+
+        <li className={pathname === "/booking-page" ? "current" : ""}>
+          <Link href="/booking-page">All Destinations</Link>
+        </li>
+
+        <li className={pathname === "/booking-page" ? "current" : ""}>
           <Link href="/booking-page">Booking</Link>
         </li>
 

@@ -34,9 +34,9 @@ const Home_1 = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Popular Destinations</h2>
+                <h2 className="sectionTitle__title">CharDham Yatra 2025</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  These popular destinations have a lot to offer
+                  Exclusive Packages Await You
                 </p>
               </div>
             </div>

@@ -43,28 +43,32 @@ export const homeItems = [
 export const blogItems = [
   {
     name: "Char Dham",
-    routePath: "/blog-list-v1",
+    routePath: "/destinations",
   },
   {
     name: "Do Dham",
-    routePath: "/blog-list-v1",
+    routePath: "/destinations",
   },
   {
     name: "Ek Dham",
-    routePath: "/blog-list-v1",
+    routePath: "/destinations",
   },
   {
     name: "Teen Dham",
-    routePath: "/blog-list-v1",
+    routePath: "/destinations",
+  },
+  {
+    name: "Panch Badri",
+    routePath: "/destinations",
   },
   
 ];
 export const pageItems = [
   {
-    name: "Chardham yatra",
+    name: "Car Rental",
     routePath: "/blog-details/9",
   },
- { name: "Do dham yatra ",
+ { name: "Bike Rental",
   routePath: "/blog-details/10",
  }
 
