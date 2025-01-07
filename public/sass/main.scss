@@ -47,3 +47,32 @@
 @import "./custom/custom-slick";
 @import "./custom/price-range-slider";
 @import "./custom/custom-next";
+
+
+/* Hide all images by default */
+.image-md, .image-sm {
+    display: none;
+  }
+  
+  /* Show the first image for medium and larger devices (>= 768px) */
+  @media (min-width: 768px) {
+    .image-md {
+      display: block;
+    }
+  }
+  
+  /* Show the second image for small and extra-small devices (< 768px) */
+  @media (max-width: 767px) {
+    .image-sm {
+      display: block;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .masthead.-type-7 .mainSearch {
+        bottom: -280px!important;
+        width: 480px;
+        max-width: calc(100% - 40px);
+    }
+}
+  

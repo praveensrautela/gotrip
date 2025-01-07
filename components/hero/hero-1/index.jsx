@@ -23,9 +23,9 @@ const index = () => {
                 <div className="col-auto">
                   <div className="masthead__content">
                     <div className="masthead__bg">
-                      <img src="/img/masthead/7/first_slider.png" alt="image" />
+                      <img src="/img/masthead/7/first_slider.png" alt="image" className="image-md" />
+                      <img src="/img/masthead/7/chardham-yatra-2025.jpg" alt="image" className="image-sm" />
                     </div>
-                    
                   </div>
                 </div>
               </div>
@@ -37,7 +37,7 @@ const index = () => {
                     <div className="masthead__bg">
                       <img src="/img/masthead/7/badrinath.png" alt="image" />
                     </div>
-                   
+
                   </div>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const index = () => {
                     <div className="masthead__bg">
                       <img src="/img/masthead/7/kedarnath.png" alt="image" />
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
@@ -63,8 +63,8 @@ const index = () => {
                     <div className="masthead__bg">
                       <img src="/img/masthead/7/gangotri.png" alt="image" />
                     </div>
-                   
-                    
+
+
                   </div>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const index = () => {
                     <div className="masthead__bg">
                       <img src="/img/masthead/7/yamunotri.png" alt="image" />
                     </div>
-                    
+
                   </div>
                 </div>
               </div>
