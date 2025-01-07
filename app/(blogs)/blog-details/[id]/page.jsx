@@ -55,32 +55,18 @@ const BlogSingleDynamic = ({ params }) => {
               <DetailsContent />
               {/* Details content */}
 
-              <div className="border-top-light border-bottom-light py-30 mt-30">
-                <TopComment />
-              </div>
+            
               {/* End  topcommnet  */}
-              <div className="border-bottom-light py-30">
-                <BlogNavigator />
-              </div>
+              
               {/* End BlogNavigator */}
 
-              <h2 className="text-22 fw-500 mb-15 pt-30">Guest reviews</h2>
-              <Comments />
               {/* End comments components */}
 
-              <div className="border-top-light pt-40 mt-40" />
+              <div className="" />
 
-              <div className="row">
-                <div className="col-auto">
-                  <h3 className="text-22 fw-500">Leave a Reply</h3>
-                  <p className="text-15 text-dark-1 mt-5">
-                    Your email address will not be published.
-                  </p>
-                </div>
-              </div>
+              
               {/* End Leave a repy title */}
 
-              <FormReply />
             </div>
             {/* End .col */}
           </div>
@@ -90,30 +76,9 @@ const BlogSingleDynamic = ({ params }) => {
       </section>
       {/* Details Blog Details Content */}
 
-      <section className="layout-pt-md layout-pb-lg">
-        <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Related content</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row y-gap-30 pt-40">
-            <RelatedBlog />
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
+     
       {/* End Related Content */}
 
-      <CallToActions />
       {/* End Call To Actions Section */}
 
       <DefaultFooter />
