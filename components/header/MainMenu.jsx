@@ -78,7 +78,7 @@ const MainMenu = ({ style = "" }) => {
           } menu-item-has-children`}
         >
           <a href="#">
-            <span className="mr-10">Packages</span>
+            <span className="mr-10">Chardham Packages</span>
             <i className="icon icon-chevron-sm-down" />
           </a>
           <ul className="subnav">

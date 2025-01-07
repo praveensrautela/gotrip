@@ -42,13 +42,21 @@ export const homeItems = [
 ];
 export const blogItems = [
   {
-    name: "Chardham yatra packages",
+    name: "Char Dham",
     routePath: "/blog-list-v1",
   },
   {
-    name: "Do dham Yatra Packages",
+    name: "Do Dham",
     routePath: "/blog-list-v1",
-  }
+  },
+  {
+    name: "Ek Dham",
+    routePath: "/blog-list-v1",
+  },
+  {
+    name: "Teen Dham",
+    routePath: "/blog-list-v1",
+  },
   
 ];
 export const pageItems = [
