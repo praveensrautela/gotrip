@@ -11,6 +11,7 @@ export const destinations1 = [
  { id: 9, city: "Maya Devi Temple", properties: "2,893", region: "Spiritual" },
  { id: 10, city: "Kanchula Korak Musk Deer Sanctuary", properties: "1,132", region: "Spiritual" },
  { id: 11, city: "Dol Ashram", properties: "1,459", region: "Spiritual" },
+ { id: 11, city: "Adi Kailash", properties: "1,459", region: "Spiritual" },
 
  // Adventure Destinations
  { id: 12, city: "Auli", properties: "5,247", region: "Adventure" },
