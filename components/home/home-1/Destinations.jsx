@@ -51,9 +51,9 @@ const Destinations = () => {
               <div className="w-1/5 lg:w-1/4 md:w-1/3 sm:w-1/2" key={item.id}>
                 <Link href="#" className="d-block">
                   <div className="text-15 fw-500">{item.city}</div>
-                  <div className="text-14 text-light-1">
+                  {/* <div className="text-14 text-light-1">
                     {item.properties} properties
-                  </div>
+                  </div> */}
                 </Link>
               </div>
             ))}

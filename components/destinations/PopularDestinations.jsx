@@ -43,7 +43,7 @@ const PopularDestinations = () => {
         {destinations2.map((item) => (
           <SwiperSlide key={item.id}>
             <Link
-              href="#"
+              href="booking-page"
               className="citiesCard -type-1 d-block rounded-4"
               key={item.id}
             >
@@ -65,9 +65,9 @@ const PopularDestinations = () => {
                   <h4 className="text-26 md:text-20 lh-13 text-white mb-20">
                     {item.city}
                   </h4>
-                  <button className="button col-12 h-60 -blue-1 bg-white text-dark-1">
-                    Discover
-                  </button>
+                  <a href="booking-page" className="button col-12 h-60 -blue-1 bg-white text-dark-1">
+                    Book Now
+                  </a>
                 </div>
               </div>
             </Link>

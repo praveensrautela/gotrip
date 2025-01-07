@@ -148,7 +148,7 @@ export const categorieMegaMenuItems = [
             menuList: [
               {
                 name: "Hotel Single v1",
-                routePath: "/hotel-single-v1/5",
+                routePath: "/destination/5",
               },
               {
                 name: "Hotel Single v2",
@@ -445,7 +445,7 @@ export const categorieMobileItems = [
         menuList: [
           {
             name: "Hotel Single v1",
-            routePath: "/hotel-single-v1/5",
+            routePath: "/destination/5",
           },
           {
             name: "Hotel Single v2",

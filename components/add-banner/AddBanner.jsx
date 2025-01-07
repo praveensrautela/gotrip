@@ -13,7 +13,7 @@ const AddBanner = () => {
         </>
       ),
       meta: "",
-      routerPath: "/",
+      routerPath: "/about",
       delayAnimation: "0",
     },
     {
@@ -21,7 +21,7 @@ const AddBanner = () => {
       img: "/img/backgrounds/2.png",
       title: "Up to 70% Discount!",
       meta: "Enjoy Summer Deals",
-      routerPath: "/",
+      routerPath: "/booking-page",
       delayAnimation: "100",
     },
   ];
