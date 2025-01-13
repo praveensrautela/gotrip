@@ -2,7 +2,7 @@ import Link from "next/link";
 
 import {
   homeItems,
-  blogItems,
+  packages,
   pageItems,
   dashboardItems,
 } from "../../data/mainMenuData";
@@ -71,7 +71,7 @@ const MainMenu = ({ style = "" }) => {
         {/* End pages items */}
 
         {<li
-          className={`${isActiveParentChaild(blogItems, pathname) ? "current" : ""
+          className={`${isActiveParentChaild(packages, pathname) ? "current" : ""
             } menu-item-has-children`}
         >
           <a href="#">
@@ -79,7 +79,7 @@ const MainMenu = ({ style = "" }) => {
             <i className="icon icon-chevron-sm-down" />
           </a>
           <ul className="subnav">
-            {blogItems.map((menu, i) => (
+            {packages.map((menu, i) => (
               <li
                 key={i}
                 className={
@@ -118,12 +118,12 @@ const MainMenu = ({ style = "" }) => {
           </ul>
         </li> */}
 
-        <li className={pathname === "/blog-list-v2" ? "current" : ""}>
-          <Link href="/blog-list-v2">Blogs</Link>
+        <li className={pathname === "/blogs" ? "current" : ""}>
+          <Link href="/blogs">Blogs</Link>
         </li>
 
-        <li className={pathname === "/booking-page" ? "current" : ""}>
-          <Link href="/booking-page">All Destinations</Link>
+        <li className={pathname === "/all-destinations" ? "current" : ""}>
+          <Link href="/all-destinations">All Destinations</Link>
         </li>
 
         <li className={pathname === "/booking-page" ? "current" : ""}>

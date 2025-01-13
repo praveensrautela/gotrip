@@ -40,26 +40,26 @@ export const homeItems = [
     routePath: "/home_10",
   },
 ];
-export const blogItems = [
+export const packages = [
   {
     name: "Char Dham",
-    routePath: "/destinations",
+    routePath: "/char-dham-package",
   },
   {
     name: "Do Dham",
-    routePath: "/destinations",
+    routePath: "/do-dham-package",
   },
   {
     name: "Ek Dham",
-    routePath: "/destinations",
+    routePath: "/ek-dham-package",
   },
   {
     name: "Teen Dham",
-    routePath: "/destinations",
+    routePath: "/teen-dham-package",
   },
   {
     name: "Panch Badri",
-    routePath: "/destinations",
+    routePath: "/panch-badri-package",
   },
   
 ];

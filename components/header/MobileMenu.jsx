@@ -11,7 +11,7 @@ import {
 } from "react-pro-sidebar";
 import {
   homeItems,
-  blogItems,
+  packages,
   pageItems,
   dashboardItems,
   categorieMobileItems,
@@ -134,8 +134,8 @@ const MobileMenu = () => {
             </MenuItem>
             {/* End  Desitinations Menu */}
 
-            <SubMenu label="Blog" className={ blogItems.some((item=>item.routePath?.split('/')[1] == pathname.split('/')[1])) ? "menu-active-link":''}>
-              {blogItems.map((item, i) => (
+            <SubMenu label="Blog" className={ packages.some((item=>item.routePath?.split('/')[1] == pathname.split('/')[1])) ? "menu-active-link":''}>
+              {packages.map((item, i) => (
                 <MenuItem
                   key={i}
                   onClick={()=>router.push(item.routePath)}
