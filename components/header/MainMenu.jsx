@@ -27,10 +27,7 @@ const MainMenu = ({ style = "" }) => {
           className={`${isActiveParentChaild(homeItems, pathname) ? "current" : ""
             } menu-item-has-children`}
         >
-          <a href="/">
-            <span className="mr-10">Home</span>
-          </a>
-
+          <Link href="/">Home </Link>
         </li>
         {/* End home page menu */}
 
