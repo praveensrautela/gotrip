@@ -61,18 +61,19 @@ export const packages = [
     name: "Panch Badri",
     routePath: "/panch-badri-package",
   },
-  
+
 ];
 export const pageItems = [
   {
     name: "Car Rental",
-    routePath: "/blog-details/9",
+    routePath: "/our-services#car-rental",
   },
- { name: "Bike Rental",
-  routePath: "/blog-details/10",
- }
+  {
+    name: "Bike Rental",
+    routePath: "/our-services#bike-rental",
+  }
 
- 
+
 ];
 export const dashboardItems = [
   {

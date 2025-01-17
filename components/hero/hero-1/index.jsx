@@ -23,8 +23,8 @@ const index = () => {
                 <div className="col-auto">
                   <div className="masthead__content">
                     <div className="masthead__bg">
-                      <img src="/img/masthead/7/char-dham.jpg" alt="image" className="image-md" />
-                      <img src="/img/masthead/7/char-dham.jpg" alt="image" className="image-sm" />
+                      <img src="/img/masthead/7/kedarnath.jpg" alt="image" className="image-md" />
+                      <img src="/img/masthead/7/kedarnath.jpg" alt="image" className="image-sm" />
                     </div>
                   </div>
                 </div>
