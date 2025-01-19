@@ -27,8 +27,7 @@ button {
 }
 
 .button {
-  &.-sm {
-  }
+  &.-sm {}
 
   &.-md {
     padding: 14px 30px;
@@ -49,6 +48,7 @@ button {
 
 @each $name, $color in $colors {
   .button.-#{$name} {
+
     &:hover,
     &.active {
       border-color: var(--color-#{$name});
@@ -58,7 +58,10 @@ button {
   }
 
   .button.-outline-#{$name} {
-    border-color: var(--color-#{$name});
+    border-color: black;
+    background-color: yellow !important;
+    color: black !important;
+    font-size: 20px;
 
     &:hover {
       background-color: var(--color-#{$name});
