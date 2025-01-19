@@ -23,8 +23,8 @@ const index = () => {
                 <div className="col-auto">
                   <div className="masthead__content">
                     <div className="masthead__bg">
-                      <img src="/img/masthead/7/kedarnath.jpg" alt="image" className="image-md" />
-                      <img src="/img/masthead/7/kedarnath.jpg" alt="image" className="image-sm" />
+                      <img src="/img/masthead/7/firstslide.jpg" alt="image" className="image-md" />
+                      <img src="/img/masthead/7/firstslide.jpg" alt="image" className="image-sm" />
                     </div>
                   </div>
                 </div>
@@ -35,20 +35,7 @@ const index = () => {
                 <div className="col-auto">
                   <div className="masthead__content">
                     <div className="masthead__bg">
-                      <img src="/img/masthead/7/badrinath.png" alt="image" />
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-
-            <SwiperSlide>
-              <div className="row justify-center text-center">
-                <div className="col-auto">
-                  <div className="masthead__content">
-                    <div className="masthead__bg">
-                      <img src="/img/masthead/7/kedarnath.png" alt="image" />
+                      <img src="/img/masthead/7/secondslide.jpg" alt="image" />
                     </div>
 
                   </div>
@@ -61,7 +48,20 @@ const index = () => {
                 <div className="col-auto">
                   <div className="masthead__content">
                     <div className="masthead__bg">
-                      <img src="/img/masthead/7/gangotri.png" alt="image" />
+                      <img src="/img/masthead/7/thirdslide.jpg" alt="image" />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="row justify-center text-center">
+                <div className="col-auto">
+                  <div className="masthead__content">
+                    <div className="masthead__bg">
+                      <img src="/img/masthead/7/fouthslide.jpg" alt="image" />
                     </div>
 
 
@@ -75,7 +75,20 @@ const index = () => {
                 <div className="col-auto">
                   <div className="masthead__content">
                     <div className="masthead__bg">
-                      <img src="/img/masthead/7/yamunotri.png" alt="image" />
+                      <img src="/img/masthead/7/fifthslide.jpg" alt="image" />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="row justify-center text-center">
+                <div className="col-auto">
+                  <div className="masthead__content">
+                    <div className="masthead__bg">
+                      <img src="/img/masthead/7/sixslide.jpg" alt="image" />
                     </div>
 
                   </div>
