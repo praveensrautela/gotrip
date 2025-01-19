@@ -1,41 +1,41 @@
 export const destinations1 = [
- // Spiritual Destinations
- { id: 1, city: "Haridwar", properties: "12,683", region: "Spiritual" },
- { id: 2, city: "Rishikesh", properties: "8,432", region: "Spiritual" },
- { id: 3, city: "Char Dham Yatra (Yamunotri, Gangotri, Kedarnath, Badrinath)", properties: "15,670", region: "Spiritual" },
- { id: 4, city: "Hemkund Sahib", properties: "3,215", region: "Spiritual" },
- { id: 5, city: "Kedarnath", properties: "7,189", region: "Spiritual" },
- { id: 6, city: "Badrinath", properties: "6,542", region: "Spiritual" },
- { id: 7, city: "Yamunotri", properties: "4,781", region: "Spiritual" },
- { id: 8, city: "Gangotri", properties: "4,305", region: "Spiritual" },
- { id: 9, city: "Maya Devi Temple", properties: "2,893", region: "Spiritual" },
- { id: 10, city: "Kanchula Korak Musk Deer Sanctuary", properties: "1,132", region: "Spiritual" },
- { id: 11, city: "Dol Ashram", properties: "1,459", region: "Spiritual" },
- { id: 11, city: "Adi Kailash", properties: "1,459", region: "Spiritual" },
+  // Spiritual Destinations
+  { id: 1, city: "Haridwar", properties: "12,683", region: "Spiritual" },
+  { id: 2, city: "Rishikesh", properties: "8,432", region: "Spiritual" },
+  { id: 3, city: "Char Dham Yatra (Yamunotri, Gangotri, Kedarnath, Badrinath)", properties: "15,670", region: "Spiritual" },
+  { id: 4, city: "Hemkund Sahib", properties: "3,215", region: "Spiritual" },
+  { id: 5, city: "Kedarnath", properties: "7,189", region: "Spiritual" },
+  { id: 6, city: "Badrinath", properties: "6,542", region: "Spiritual" },
+  { id: 7, city: "Yamunotri", properties: "4,781", region: "Spiritual" },
+  { id: 8, city: "Gangotri", properties: "4,305", region: "Spiritual" },
+  { id: 9, city: "Maya Devi Temple", properties: "2,893", region: "Spiritual" },
+  { id: 10, city: "Kanchula Korak Musk Deer Sanctuary", properties: "1,132", region: "Spiritual" },
+  { id: 11, city: "Dol Ashram", properties: "1,459", region: "Spiritual" },
+  { id: 11, city: "Adi Kailash", properties: "1,459", region: "Spiritual" },
 
- // Adventure Destinations
- { id: 12, city: "Auli", properties: "5,247", region: "Adventure" },
- { id: 13, city: "Valley of Flowers National Park", properties: "3,621", region: "Adventure" },
- { id: 14, city: "Nanda Devi National Park", properties: "2,874", region: "Adventure" },
- { id: 15, city: "Rajaji National Park", properties: "4,112", region: "Adventure" },
- { id: 16, city: "Rishikesh", properties: "8,432", region: "Adventure" },
- { id: 17, city: "Chopta", properties: "1,925", region: "Adventure" },
- { id: 18, city: "Lansdowne", properties: "3,732", region: "Adventure" },
- { id: 19, city: "Jim Corbett National Park", properties: "6,574", region: "Adventure" },
- { id: 20, city: "Kausani", properties: "1,743", region: "Adventure" },
- { id: 21, city: "Tungnath", properties: "2,301", region: "Adventure" },
+  // Adventure Destinations
+  { id: 12, city: "Auli", properties: "5,247", region: "Adventure" },
+  { id: 13, city: "Valley of Flowers National Park", properties: "3,621", region: "Adventure" },
+  { id: 14, city: "Nanda Devi National Park", properties: "2,874", region: "Adventure" },
+  { id: 15, city: "Rajaji National Park", properties: "4,112", region: "Adventure" },
+  { id: 16, city: "Rishikesh", properties: "8,432", region: "Adventure" },
+  { id: 17, city: "Chopta", properties: "1,925", region: "Adventure" },
+  { id: 18, city: "Lansdowne", properties: "3,732", region: "Adventure" },
+  { id: 19, city: "Jim Corbett National Park", properties: "6,574", region: "Adventure" },
+  { id: 20, city: "Kausani", properties: "1,743", region: "Adventure" },
+  { id: 21, city: "Tungnath", properties: "2,301", region: "Adventure" },
 
- // Sightseeing Destinations
- { id: 22, city: "Nainital", properties: "9,524", region: "Sightseeing" },
- { id: 23, city: "Mussoorie", properties: "8,743", region: "Sightseeing" },
- { id: 24, city: "Ranikhet", properties: "4,832", region: "Sightseeing" },
- { id: 25, city: "Dehradun", properties: "10,657", region: "Sightseeing" },
- { id: 26, city: "Almora", properties: "3,241", region: "Sightseeing" },
- { id: 27, city: "Tehri Lake", properties: "5,312", region: "Sightseeing" },
- { id: 28, city: "Pauri", properties: "2,874", region: "Sightseeing" },
- { id: 29, city: "Har Ki Dun", properties: "1,951", region: "Sightseeing" },
- { id: 30, city: "Binsar", properties: "2,624", region: "Sightseeing" },
- { id: 31, city: "Chakrata", properties: "1,943", region: "Sightseeing" }
+  // Sightseeing Destinations
+  { id: 22, city: "Nainital", properties: "9,524", region: "Sightseeing" },
+  { id: 23, city: "Mussoorie", properties: "8,743", region: "Sightseeing" },
+  { id: 24, city: "Ranikhet", properties: "4,832", region: "Sightseeing" },
+  { id: 25, city: "Dehradun", properties: "10,657", region: "Sightseeing" },
+  { id: 26, city: "Almora", properties: "3,241", region: "Sightseeing" },
+  { id: 27, city: "Tehri Lake", properties: "5,312", region: "Sightseeing" },
+  { id: 28, city: "Pauri", properties: "2,874", region: "Sightseeing" },
+  { id: 29, city: "Har Ki Dun", properties: "1,951", region: "Sightseeing" },
+  { id: 30, city: "Binsar", properties: "2,624", region: "Sightseeing" },
+  { id: 31, city: "Chakrata", properties: "1,943", region: "Sightseeing" }
 ];
 
 export const destinations2 = [
@@ -69,7 +69,13 @@ export const destinations2 = [
     city: "Panch Badri",
     img: "/img/destinations/1/5.png",
   },
-  
+  {
+    id: 5,
+    hoverText: "14 Hotel - 22 Cars - 18 Tours - 95 Activity",
+    city: "Adi Kailash",
+    img: "/img/destinations/1/Adikailash-yatra.jpg",
+  },
+
 ];
 
 export const destinations3 = [
