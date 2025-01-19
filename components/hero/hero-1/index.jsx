@@ -56,19 +56,6 @@ const index = () => {
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
-              <div className="row justify-center text-center">
-                <div className="col-auto">
-                  <div className="masthead__content">
-                    <div className="masthead__bg">
-                      <img src="/img/masthead/7/fouthslide.jpg" alt="image" />
-                    </div>
-
-
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
 
             <SwiperSlide>
               <div className="row justify-center text-center">
